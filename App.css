@@ -1,0 +1,189 @@
+.App {
+
+
+}
+
+.backgroundImageScroll {
+  height: 100%;
+  position: relative;
+}
+
+.backgroundImageScrollfloatAround {
+  animation-name: slow-scroll, slow-zoom;
+  animation-duration: 20s, 16s;
+  animation-iteration-count: infinite, infinite;
+  animation-timing-function: cubic-bezier(.25, .63, .69, 0.36), cubic-bezier(.17, .83, .77, -0.11);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: all 3s;
+}
+
+.backgroundImageScrollshowBench {
+  top: -800px;
+  left: 0px;
+  height: 50%;
+}
+
+.centeredLeaf {
+  position: fixed;
+  display: block;
+  resize: both;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.leafImage {
+  z-index: 1;
+  width: 295px;
+  height: 300px;
+  position: absolute;
+  transition: all 0.8s;
+}
+
+.leafImage:hover {
+  transform: rotate(10deg);
+  transition: all 0.8s;
+}
+
+.createText {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size:30px;
+  z-index: 2;
+  pointer-events:none;
+  position: absolute;
+  color: #D6CFC9;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  width: 295px;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@keyframes slow-scroll {
+  0% {left: 0px;}
+  50% {left: -500px;}
+  100% {left: 0px;}
+}
+
+@keyframes slow-zoom {
+  0% {width: 3840px; height: 2400px}
+  50% {width: 3456px; height: 2160px}
+  100% {width: 3840px; height: 2400px}
+}
+
+
+@keyframes zoomInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.scentText {
+  color: white;
+  z-index: 2;
+  width: 248px;
+  top: 200px;
+  font-size: 38px;
+  font-weight: 500;
+  pointer-events:none;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.candleImage {
+  z-index: 1;
+  width: 248px;
+  height: 471px;
+  position: absolute;
+  transition: all 0.8s;
+}
+
+.centeredCandle:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.centeredCandle {
+  position: fixed;
+  display: block;
+  resize: both;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -350px;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+  transition: all 0.8s;
+}
+
+.zoomInDown {
+  animation-name: zoomInDown;
+  animation-duration: 2s;
+  opacity: 1;
+}
+
+@keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.zoomOutUp {
+  animation-name: zoomOutUp;
+  animation-duration: 1s;
+  opacity: 0;
+  pointer-events:none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}

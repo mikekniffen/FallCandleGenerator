@@ -130,8 +130,8 @@ html {
   resize: both;
   top: 50%;
   left: 50%;
-  margin-left: -100px;
-  margin-top: -350px;
+  margin-left: -124px;
+  margin-top: -236px;
   animation-name: fadeInUp;
   animation-duration: 2s;
   transition: all 0.8s;

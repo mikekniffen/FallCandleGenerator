@@ -1,6 +1,6 @@
 {
   "name": "webproj",
-  "homepage": "https://mikekniffen.github.io/FallCandleGenerator/",
+  "homepage": "http://mikekniffen.github.io/FallCandleGenerator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

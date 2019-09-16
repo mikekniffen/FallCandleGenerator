@@ -116,12 +116,12 @@ html {
   width: 248px;
   height: 471px;
   position: absolute;
-  transition: all 0.8s;
+
 }
 
 .centeredCandle:hover {
   transform: scale(1.1);
-  transition: all 0.8s;
+  
 }
 
 .centeredCandle {
@@ -133,7 +133,7 @@ html {
   margin-left: -124px;
   margin-top: -236px;
   animation-name: fadeInUp;
-  animation-duration: 2s;
+  animation-duration: 1s;
   transition: all 0.8s;
 }
 

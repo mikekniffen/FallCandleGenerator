@@ -59,21 +59,31 @@ const scents = {
 };
 
 export const adjectives = Object.keys(scents).reduce((accumulator, scent) => {
-    if (scents[scent].includes(scentTypes.adjective)){
+    if (scents[scent].includes(scentTypes.adjective)) {
         accumulator.push(scent);
     }
     return accumulator;
 }, []);
 
 export const nouns = Object.keys(scents).reduce((accumulator, scent) => {
-    if (scents[scent].includes(scentTypes.noun)){
+    if (scents[scent].includes(scentTypes.noun)) {
         accumulator.push(scent);
     }
     return accumulator;
 }, []);
 
-function randomAdjective() {
-    return adjectives[Math.floor(Math.random() * adjectives.length)];
+function randomAdjective(exclude = null) {
+    if (exclude) {
+        let generated = exclude;
+        while (generated === exclude)
+        {
+            generated = adjectives[Math.floor(Math.random() * adjectives.length)];
+        }
+        return generated;
+    }
+    else {
+        return adjectives[Math.floor(Math.random() * adjectives.length)];
+    }
 }
 
 function randomNoun() {
@@ -81,5 +91,8 @@ function randomNoun() {
 }
 
 export function generateScent() {
+    const adj1 = randomAdjective();
+    const adj2 = randomAdjective(adj1);
+    const noun = randomNoun();
     return `${randomAdjective()} ${randomAdjective()} ${randomNoun()}`;
 }

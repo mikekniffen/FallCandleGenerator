@@ -33,10 +33,7 @@ function App() {
           <img className="candleImage" src={candle}></img>
           <span className="scentText">{currentScent}</span>
         </div>
-        <div className={leafButtonClass} >
-          <img className="leafImage" onClick={showScent} src={leaf}/>
-          <span className="createText">Create</span>
-        </div>
+        
       </div>
     );
   }

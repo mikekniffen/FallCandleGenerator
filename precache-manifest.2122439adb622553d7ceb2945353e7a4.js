@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d110c1ef56c21e1a9ede9ae3e12158b0",
+    "revision": "0214219cce03a9cae087f0bedfa3a6f1",
     "url": "/FallCandleGenerator/index.html"
   },
   {
-    "revision": "80c4f1b26043cb1f00dc",
-    "url": "/FallCandleGenerator/static/css/main.9540abb3.chunk.css"
+    "revision": "1b24f0929cd584620cba",
+    "url": "/FallCandleGenerator/static/css/main.f83f8d7d.chunk.css"
   },
   {
-    "revision": "f498709293d9ee0a893c",
-    "url": "/FallCandleGenerator/static/js/2.51256eac.chunk.js"
+    "revision": "134391e810971bc57efb",
+    "url": "/FallCandleGenerator/static/js/2.313348f8.chunk.js"
   },
   {
-    "revision": "80c4f1b26043cb1f00dc",
-    "url": "/FallCandleGenerator/static/js/main.1a480cc5.chunk.js"
+    "revision": "1b24f0929cd584620cba",
+    "url": "/FallCandleGenerator/static/js/main.6fd4e7f2.chunk.js"
   },
   {
     "revision": "e58dc8057220fdbb1754",

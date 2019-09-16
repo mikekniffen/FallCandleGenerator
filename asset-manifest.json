@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FallCandleGenerator/static/css/main.9540abb3.chunk.css",
-    "main.js": "/FallCandleGenerator/static/js/main.1a480cc5.chunk.js",
-    "main.js.map": "/FallCandleGenerator/static/js/main.1a480cc5.chunk.js.map",
+    "main.css": "/FallCandleGenerator/static/css/main.f83f8d7d.chunk.css",
+    "main.js": "/FallCandleGenerator/static/js/main.6fd4e7f2.chunk.js",
+    "main.js.map": "/FallCandleGenerator/static/js/main.6fd4e7f2.chunk.js.map",
     "runtime~main.js": "/FallCandleGenerator/static/js/runtime~main.6f11a1ef.js",
     "runtime~main.js.map": "/FallCandleGenerator/static/js/runtime~main.6f11a1ef.js.map",
-    "static/js/2.51256eac.chunk.js": "/FallCandleGenerator/static/js/2.51256eac.chunk.js",
-    "static/js/2.51256eac.chunk.js.map": "/FallCandleGenerator/static/js/2.51256eac.chunk.js.map",
+    "static/js/2.313348f8.chunk.js": "/FallCandleGenerator/static/js/2.313348f8.chunk.js",
+    "static/js/2.313348f8.chunk.js.map": "/FallCandleGenerator/static/js/2.313348f8.chunk.js.map",
     "index.html": "/FallCandleGenerator/index.html",
-    "precache-manifest.5346f6036e0787a7e8f4e4eb9e0f574d.js": "/FallCandleGenerator/precache-manifest.5346f6036e0787a7e8f4e4eb9e0f574d.js",
+    "precache-manifest.2122439adb622553d7ceb2945353e7a4.js": "/FallCandleGenerator/precache-manifest.2122439adb622553d7ceb2945353e7a4.js",
     "service-worker.js": "/FallCandleGenerator/service-worker.js",
-    "static/css/main.9540abb3.chunk.css.map": "/FallCandleGenerator/static/css/main.9540abb3.chunk.css.map",
+    "static/css/main.f83f8d7d.chunk.css.map": "/FallCandleGenerator/static/css/main.f83f8d7d.chunk.css.map",
     "static/media/background-2.jpg": "/FallCandleGenerator/static/media/background-2.d7bf4680.jpg",
     "static/media/candle_transparent.png": "/FallCandleGenerator/static/media/candle_transparent.4169d27f.png",
     "static/media/leaf1.png": "/FallCandleGenerator/static/media/leaf1.b2f7252a.png"

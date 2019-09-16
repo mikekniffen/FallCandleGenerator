@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FallCandleGenerator/precache-manifest.2122439adb622553d7ceb2945353e7a4.js"
+  "/FallCandleGenerator/precache-manifest.1feb4f3221a9646bbf60e136a97c770d.js"
 );
 
 self.addEventListener('message', (event) => {

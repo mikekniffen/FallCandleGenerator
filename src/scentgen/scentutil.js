@@ -66,7 +66,7 @@ const scents = {
     "Toasted": [scentTypes.adjective],
     "Cozy": [scentTypes.adjective],
     "Mulled": [scentTypes.adjective],
-    "Maple": [scentTypes.adjective],
+    "Maple": [scentTypes.adjective, scentTypes.noun],
     "Pancakes": [scentTypes.noun],
     "Fresh": [scentTypes.adjective],
     "Foliage": [scentTypes.noun],

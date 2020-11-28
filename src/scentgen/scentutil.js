@@ -55,7 +55,29 @@ const scents = {
     "Waffles": [scentTypes.noun],
     "Gathering": [scentTypes.noun],
     "Cream": [scentTypes.noun, scentTypes.adjective],
-
+    "Blessed": [scentTypes.adjective],
+    "Fig": [scentTypes.adjective, scentTypes.noun],
+    "Wreath": [scentTypes.noun],
+    "Amber": [scentTypes.adjective],
+    "Patchouli": [scentTypes.adjective],
+    "McIntosh": [scentTypes.adjective],
+    "Home": [scentTypes.noun],
+    "Bonfire": [scentTypes.noun],
+    "Toasted": [scentTypes.adjective],
+    "Cozy": [scentTypes.adjective],
+    "Mulled": [scentTypes.adjective],
+    "Maple": [scentTypes.adjective],
+    "Pancakes": [scentTypes.noun],
+    "Fresh": [scentTypes.adjective],
+    "Foliage": [scentTypes.noun],
+    "Sunset": [scentTypes.noun],
+    "Feast": [scentTypes.noun],
+    "Embers": [scentTypes.noun],
+    "Buttered": [scentTypes.adjective],
+    "Smore": [scentTypes.noun],
+    "Donut": [scentTypes.noun],
+    "Homesick": [scentTypes.adjective],
+    "Cranberry": [scentTypes.adjective, scentTypes.noun]
 };
 
 export const adjectives = Object.keys(scents).reduce((accumulator, scent) => {

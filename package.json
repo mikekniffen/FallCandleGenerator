@@ -10,7 +10,7 @@
     "@types/react-dom": "^16.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
+    "react-scripts": "5.0.1",
     "typescript": "^3.6.3"
   },
   "scripts": {
@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
-    "react-native": "^0.60.5"
+    "react-native": "^0.80.2"
   }
 }

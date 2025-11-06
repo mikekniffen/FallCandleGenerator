@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
-    "react-native": "^0.60.5"
+    "react-native": "^0.82.1"
   }
 }
